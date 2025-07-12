@@ -14,3 +14,8 @@ function getIdentity(id) {
     console.log('The type of id is' + typeof id);
 }
 getIdentity(123);
+function printLabel(lebelledObj) {
+    console.log(labelledObj.label);
+}
+var myObj = { size: 10, label: 'Size 10 Object' };
+printLabel(myObj);

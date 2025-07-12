@@ -34,3 +34,10 @@ function getIdentity<T>(id: T) {
     
 }
 getIdentity<number>(123);
+
+function printLabel(lebelledObj: {label: string}){
+    console.log(labelledObj.label);
+    
+}
+let myObj = {size: 10, label: 'Size 10 Object'};
+printLabel(myObj);
