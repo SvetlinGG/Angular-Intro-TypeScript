@@ -5,3 +5,12 @@ var isAuthenticate = false;
 var arr = [1, 2, 3, 4, 5];
 console.log(arr.filter(function (n) { return n > 3; }));
 var x = 123;
+var peshoUser = {
+    name: 'Pesho',
+    age: 20,
+    address: 'Sofia'
+};
+function getIdentity(id) {
+    console.log('The type of id is' + typeof id);
+}
+getIdentity(123);

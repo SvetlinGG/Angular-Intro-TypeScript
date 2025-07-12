@@ -28,3 +28,9 @@ const peshoUser: User = {
     address: 'Sofia'
 
 };
+
+function getIdentity<T>(id: T) {
+    console.log('The type of id is' + typeof id);
+    
+}
+getIdentity<number>(123);
