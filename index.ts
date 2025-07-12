@@ -41,3 +41,9 @@ function printLabel(lebelledObj: {label: string}){
 }
 let myObj = {size: 10, label: 'Size 10 Object'};
 printLabel(myObj);
+interface LabelledValue {
+    label: string;
+}
+function printLabel1(labelledObj: LabelledValue) {
+    console.log(labelledObj.label);
+}
