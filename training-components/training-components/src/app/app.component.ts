@@ -9,4 +9,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'training-components';
+  let counter = 0;
+  const countHandler = () => {
+    counter = counter + 1;
+  }
+  onClick(countHandler())
 }
